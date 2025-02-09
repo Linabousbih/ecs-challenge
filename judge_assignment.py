@@ -14,12 +14,21 @@ def assign_judges(posters, primary, backup, judge_full_names, professor_embeddin
         # Compute match scores
         match_scores = compute_match_score(poster["Abstract"], professor_embeddings, professor_names)
 
+        # Debug: Print match scores for each poster
+        print(f"\nPoster {poster_id} - Advisor: {advisor_full}")
+        for j, score in match_scores:
+            print(f"    Judge: {j}, Score: {score}")
+
         # Filter out the advisor and judges who already reached 6 assignments
         filtered_candidates = [
             (j, score) for j, score in match_scores 
             if judge_full_names.get(j.lower(), "") != advisor_full and j in primary and len(primary[j]) < 6
         ]
         
+        # Debug: Check if any valid judges exist
+        if not filtered_candidates:
+            print(f"⚠️ No valid judges found for Poster {poster_id}, using fallback!")
+
         # Sort by highest match score
         sorted_candidates = sorted(filtered_candidates, key=lambda x: x[1], reverse=True)
 
@@ -36,6 +45,9 @@ def assign_judges(posters, primary, backup, judge_full_names, professor_embeddin
             sorted_candidates.append(("Fallback Judge", 0.0))  # Add a dummy fallback judge if needed
 
         selected = [sorted_candidates[0][0], sorted_candidates[1][0]]
+
+        # Debug: Show final selection
+        print(f"✅ Poster {poster_id}: Assigned Judges -> {selected}")
 
         # Assign judges and update their lists
         assignments[poster_id] = selected

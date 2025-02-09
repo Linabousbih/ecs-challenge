@@ -36,6 +36,24 @@ assignments = {**first_assignments, **second_assignments}
 # Optimize Assignments
 final_assignments = simulated_annealing_swap(assignments)
 
+# Debugging: Display final assignments
+print("=== Final Assignments ===")
+for poster_id, judges in final_assignments.items():
+    print(f"Poster {poster_id}: Judges {judges}")
+
+# Debugging: Display judge full names
+print("\n=== Judge Full Names ===")
+for key, name in judge_full_names.items():
+    print(f"{key}: {name}")
+
+# Check for any fallback judge entries
+fallback_entries = [poster for poster, judges in final_assignments.items() if "Fallback Judge" in judges]
+if fallback_entries:
+    print("\nWARNING: Fallback Judge found in assignments for posters:", fallback_entries)
+else:
+    print("\nNo Fallback Judge entries found.")
+
+
 # Populate MongoDB
 populate_db(final_assignments, judge_full_names)
 

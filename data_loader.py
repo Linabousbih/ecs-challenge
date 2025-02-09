@@ -1,4 +1,3 @@
-# data_loader.py
 import pandas as pd
 
 def load_data(judges_file, posters_file):
@@ -6,9 +5,13 @@ def load_data(judges_file, posters_file):
     judges_df = pd.read_excel(judges_file)
     posters_df = pd.read_excel(posters_file)
 
-    # Build a dictionary mapping JudgeID to full name
-    judge_full_names = {row["Judge"]: f"{row['Judge FirstName'].strip()} {row['Judge LastName'].strip()}"
-                        for _, row in judges_df.iterrows()}
+    # Build a dictionary mapping judge full name to full name
+    # (This way, the keys are the full names, matching what the matching function returns)
+    judge_full_names = {
+        f"{row['Judge FirstName'].strip()} {row['Judge LastName'].strip()}": 
+        f"{row['Judge FirstName'].strip()} {row['Judge LastName'].strip()}"
+        for _, row in judges_df.iterrows()
+    }
 
     return judges_df, posters_df, judge_full_names
 
@@ -18,7 +21,11 @@ def group_judges(judges_df):
     second_hour_judges_df = judges_df[judges_df["Hour available"].isin([2, "both"])].copy()
 
     def initialize_judge_map(judges):
-        return {row["Judge"]: [] for _, row in judges.iterrows()}
+        # Use full names as keys instead of judge IDs
+        return {
+            f"{row['Judge FirstName'].strip()} {row['Judge LastName'].strip()}": []
+            for _, row in judges.iterrows()
+        }
 
     return (
         initialize_judge_map(first_hour_judges_df), {},  # first_primary, first_backup
