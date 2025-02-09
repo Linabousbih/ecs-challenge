@@ -1,6 +1,6 @@
 # Judge-Poster Assignment and Grading System
 
-This project automates the process of assigning judges to posters, optimizing the assignments based on matching scores, and facilitating the grading process.  It leverages AI-driven matching, web scraping, and a user-friendly interface.
+This project automates the process of assigning judges to posters, optimizing the assignments based on matching scores, and facilitating the grading process. It leverages AI-driven matching, web scraping, and a user-friendly interface.
 
 ## Table of Contents
 
@@ -16,7 +16,6 @@ This project automates the process of assigning judges to posters, optimizing th
     * [4.3. Part 3: Optimization Phase (Swapping)](#part-3-optimization-phase-swapping)
     * [4.4. Part 4: Data Storage (MongoDB)](#part-4-data-storage-mongodb)
     * [4.5. Part 5: Professor Login and Poster Access](#part-5-professor-login-and-poster-access)
-
 
 ## 1. Getting Started <a name="getting-started"></a>
 
@@ -110,13 +109,4 @@ For each poster:
 *   Iterate through pairs of posters and evaluate if swapping a judge between them improves the combined match score.
 *   Perform swaps that result in better matches. This process refines the initial assignments.
 
-### 4.4. Part 4: Data Storage (MongoDB) <a name="part-4-data-storage-mongodb"></a>
-
-*   Assignments, posters, judges, and related data are stored in a MongoDB database.
-*   This facilitates data access, management, and scalability.
-
-### 4.5. Part 5: Professor Login and Poster Access <a name="part-5-professor-login-and-poster-access"></a>
-
-*   The application includes a professor login page.
-*   Professors can access only their assigned posters after successful authentication.
-*   This ensures data confidentiality and access control.
+##
