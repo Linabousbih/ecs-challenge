@@ -27,7 +27,6 @@ pip3 install -r requirements.txt
 # beautifulsoup4
 # sentence-transformers
 # torch
-# concurrent.futures
 # pymongo
 # openpyxl
 
@@ -82,13 +81,6 @@ python3 main.py
 # If a swap results in a better match, we perform the swap. This process is iterative and helps fine-tune the initial assignments.
 
 # --------------------------------------
-# Part 3: Swapping Phase
-# --------------------------------------
-
-# In a second round, we iterate over pairs of posters and evaluate whether swapping one judge from each poster improves the combined match score.
-# If a swap results in a better match, we perform the swap. This process is iterative and helps fine-tune the initial assignments.
-
-# --------------------------------------
 # Part 4: Data Storage and Access
 # --------------------------------------
 
@@ -105,18 +97,3 @@ python3 main.py
 # The login page will verify their credentials, and upon successful authentication, it will display the posters assigned to them.
 
 # The login system ensures that only professors can view and grade the posters assigned to them, maintaining confidentiality and access control.
-
-# --------------------------------------
-# Part 6: Branches Overview
-# --------------------------------------
-
-# The project is organized into three branches:
-# 1. **Main Branch (`main`)**: 
-#    - Contains the logic for **Part 1** and **Part 3** of the project:
-#      - **Part 1**: Judge assignment based on AI matching, web scraping, and assignment logic.
-#      - **Part 3**: Final grading and ranking of posters based on matching scores and grades from judges.
-# 2. **UI Branch (`UI`)**: 
-#    - Dedicated to building the user interface for interacting with the application.
-# 3. **Part 2 Branch (`part 2`)**: 
-#    - Focuses on **Part 2**, which includes the **optimization phase** of matching judges to posters based on matching scores.
-
