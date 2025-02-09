@@ -1,0 +1,111 @@
+Judges:
+{'_id': ObjectId('67a81186f0db012d772ae747'), 'username': 'Jeongmin Ahn', 'password': None, 'assigned_posters': [43, 67, 48]}
+{'_id': ObjectId('67a81186f0db012d772ae748'), 'username': 'Ben Akih-Kumgeh', 'password': None, 'assigned_posters': [35, 20]}
+{'_id': ObjectId('67a81186f0db012d772ae749'), 'username': 'Jesse Q. Bond', 'password': None, 'assigned_posters': [57, 26, 58]}
+{'_id': ObjectId('67a81186f0db012d772ae74a'), 'username': 'Elizabeth Carter', 'password': None, 'assigned_posters': [5, 21, 27, 49, 38, 50]}
+{'_id': ObjectId('67a81186f0db012d772ae74b'), 'username': 'C.Y. Roger Chen', 'password': None, 'assigned_posters': [39, 12, 34]}
+{'_id': ObjectId('67a81186f0db012d772ae74c'), 'username': 'Ruth Chen', 'password': None, 'assigned_posters': [15, 22, 40, 60, 64]}
+{'_id': ObjectId('67a81186f0db012d772ae74d'), 'username': 'John F. Dannenhoffer', 'password': None, 'assigned_posters': [29, 65, 36]}
+{'_id': ObjectId('67a81186f0db012d772ae74e'), 'username': 'Gabriel Silva De Oliveira', 'password': None, 'assigned_posters': [33, 18, 40]}
+{'_id': ObjectId('67a81186f0db012d772ae74f'), 'username': 'Bing Dong', 'password': None, 'assigned_posters': [3, 9, 23, 16, 48, 62]}
+{'_id': ObjectId('67a81186f0db012d772ae750'), 'username': 'Zhenyu Gan', 'password': None, 'assigned_posters': [7, 11, 13, 17, 61, 28]}
+{'_id': ObjectId('67a81186f0db012d772ae751'), 'username': 'Nadeem Ghani', 'password': None, 'assigned_posters': [19, 45, 66]}
+{'_id': ObjectId('67a81186f0db012d772ae752'), 'username': 'M. Cenk Gursoy', 'password': None, 'assigned_posters': [1, 33, 28]}
+{'_id': ObjectId('67a81186f0db012d772ae753'), 'username': 'Jay Henderson', 'password': None, 'assigned_posters': [3, 2, 46]}
+{'_id': ObjectId('67a81186f0db012d772ae754'), 'username': 'Endadul Hoque', 'password': None, 'assigned_posters': [63, 38]}
+{'_id': ObjectId('67a81186f0db012d772ae755'), 'username': 'Ian Hosein', 'password': None, 'assigned_posters': [57, 56]}
+{'_id': ObjectId('67a81186f0db012d772ae756'), 'username': 'Era Jain', 'password': None, 'assigned_posters': [52, 64]}
+{'_id': ObjectId('67a81186f0db012d772ae757'), 'username': 'Pankaj Jha', 'password': None, 'assigned_posters': [65, 32, 42]}
+{'_id': ObjectId('67a81186f0db012d772ae758'), 'username': 'Min Liu', 'password': None, 'assigned_posters': [51, 44]}
+{'_id': ObjectId('67a81186f0db012d772ae759'), 'username': 'Zhen Ma', 'password': None, 'assigned_posters': [8, 14]}
+{'_id': ObjectId('67a81186f0db012d772ae75a'), 'username': 'Shalabh Maroo', 'password': None, 'assigned_posters': [11, 13, 10]}
+{'_id': ObjectId('67a81186f0db012d772ae75b'), 'username': 'Joao Paulo Marum', 'password': None, 'assigned_posters': [37, 53, 59]}
+{'_id': ObjectId('67a81186f0db012d772ae75c'), 'username': 'Chikukuri Monhan', 'password': None, 'assigned_posters': [15, 37, 49, 4, 54]}
+{'_id': ObjectId('67a81186f0db012d772ae75d'), 'username': 'Mary Beth Monroe', 'password': None, 'assigned_posters': [23, 41, 43, 59, 62]}
+{'_id': ObjectId('67a81186f0db012d772ae75e'), 'username': 'Shikha Nangia', 'password': None, 'assigned_posters': [41, 53, 32, 34, 42]}
+{'_id': ObjectId('67a81186f0db012d772ae75f'), 'username': 'Anupam Pandey', 'password': None, 'assigned_posters': [7, 35, 47, 4, 36]}
+{'_id': ObjectId('67a81186f0db012d772ae760'), 'username': 'Jason Pollack', 'password': None, 'assigned_posters': [19, 24]}
+{'_id': ObjectId('67a81186f0db012d772ae761'), 'username': 'Qinru Qiu', 'password': None, 'assigned_posters': [39, 54]}
+{'_id': ObjectId('67a81186f0db012d772ae762'), 'username': 'Farzana Rahman', 'password': None, 'assigned_posters': [12, 66]}
+{'_id': ObjectId('67a81186f0db012d772ae763'), 'username': 'Younes Radi', 'password': None, 'assigned_posters': [27, 55]}
+{'_id': ObjectId('67a81186f0db012d772ae764'), 'username': 'Baris Salman', 'password': None, 'assigned_posters': [47, 16, 52, 56, 58]}
+{'_id': ObjectId('67a81186f0db012d772ae765'), 'username': 'Ashok Sangani', 'password': None, 'assigned_posters': [25, 51, 14, 26, 60]}
+{'_id': ObjectId('67a81186f0db012d772ae766'), 'username': 'Amit Sanyal', 'password': None, 'assigned_posters': [21, 25]}
+{'_id': ObjectId('67a81186f0db012d772ae767'), 'username': 'Wanliang Shan', 'password': None, 'assigned_posters': [30, 68]}
+{'_id': ObjectId('67a81186f0db012d772ae768'), 'username': 'Sucheta Soundarajan', 'password': None, 'assigned_posters': [5, 17, 61]}
+{'_id': ObjectId('67a81186f0db012d772ae769'), 'username': 'Yiyang Sun', 'password': None, 'assigned_posters': [67, 6, 30]}
+{'_id': ObjectId('67a81186f0db012d772ae76a'), 'username': 'Yuzhe Tang', 'password': None, 'assigned_posters': [29, 55]}
+{'_id': ObjectId('67a81186f0db012d772ae76b'), 'username': 'Svetoslava Todorova', 'password': None, 'assigned_posters': [1, 9, 31, 10]}
+{'_id': ObjectId('67a81186f0db012d772ae76c'), 'username': 'Senem Velipasalar', 'password': None, 'assigned_posters': [31, 63, 50, 68]}
+{'_id': ObjectId('67a81186f0db012d772ae76d'), 'username': 'Yaoying Wu', 'password': None, 'assigned_posters': [2, 8, 18, 46]}
+{'_id': ObjectId('67a81186f0db012d772ae76e'), 'username': 'Yi Zheng', 'password': None, 'assigned_posters': [45, 6, 24, 44]}
+
+Posters:
+{'_id': ObjectId('67a81186f0db012d772ae76f'), 'poster_id': 1, 'judges': [12, 37], 'matching_scores': {'12': 0, '37': 0}, 'grades': {'12': None, '37': None}}
+{'_id': ObjectId('67a81186f0db012d772ae770'), 'poster_id': 3, 'judges': [13, 9], 'matching_scores': {'13': 0, '9': 0}, 'grades': {'13': None, '9': None}}
+{'_id': ObjectId('67a81186f0db012d772ae771'), 'poster_id': 5, 'judges': [4, 34], 'matching_scores': {'4': 0, '34': 0}, 'grades': {'4': None, '34': None}}
+{'_id': ObjectId('67a81186f0db012d772ae772'), 'poster_id': 7, 'judges': [25, 10], 'matching_scores': {'25': 0, '10': 0}, 'grades': {'25': None, '10': None}}
+{'_id': ObjectId('67a81186f0db012d772ae773'), 'poster_id': 9, 'judges': [9, 37], 'matching_scores': {'9': 0, '37': 0}, 'grades': {'9': None, '37': None}}
+{'_id': ObjectId('67a81186f0db012d772ae774'), 'poster_id': 11, 'judges': [10, 20], 'matching_scores': {'10': 0, '20': 0}, 'grades': {'10': None, '20': None}}
+{'_id': ObjectId('67a81186f0db012d772ae775'), 'poster_id': 13, 'judges': [20, 10], 'matching_scores': {'20': 0, '10': 0}, 'grades': {'20': None, '10': None}}
+{'_id': ObjectId('67a81186f0db012d772ae776'), 'poster_id': 15, 'judges': [6, 22], 'matching_scores': {'6': 0, '22': 0}, 'grades': {'6': None, '22': None}}
+{'_id': ObjectId('67a81186f0db012d772ae777'), 'poster_id': 17, 'judges': [10, 34], 'matching_scores': {'10': 0, '34': 0}, 'grades': {'10': None, '34': None}}
+{'_id': ObjectId('67a81186f0db012d772ae778'), 'poster_id': 19, 'judges': [26, 11], 'matching_scores': {'26': 0, '11': 0}, 'grades': {'26': None, '11': None}}
+{'_id': ObjectId('67a81186f0db012d772ae779'), 'poster_id': 21, 'judges': [32, 4], 'matching_scores': {'32': 0, '4': 0}, 'grades': {'32': None, '4': None}}
+{'_id': ObjectId('67a81186f0db012d772ae77a'), 'poster_id': 23, 'judges': [23, 9], 'matching_scores': {'23': 0, '9': 0}, 'grades': {'23': None, '9': None}}
+{'_id': ObjectId('67a81186f0db012d772ae77b'), 'poster_id': 25, 'judges': [31, 32], 'matching_scores': {'31': 0, '32': 0}, 'grades': {'31': None, '32': None}}
+{'_id': ObjectId('67a81186f0db012d772ae77c'), 'poster_id': 27, 'judges': [29, 4], 'matching_scores': {'29': 0, '4': 0}, 'grades': {'29': None, '4': None}}
+{'_id': ObjectId('67a81186f0db012d772ae77d'), 'poster_id': 29, 'judges': [7, 36], 'matching_scores': {'7': 0, '36': 0}, 'grades': {'7': None, '36': None}}
+{'_id': ObjectId('67a81186f0db012d772ae77e'), 'poster_id': 31, 'judges': [37, 38], 'matching_scores': {'37': 0, '38': 0}, 'grades': {'37': None, '38': None}}
+{'_id': ObjectId('67a81186f0db012d772ae77f'), 'poster_id': 33, 'judges': [12, 8], 'matching_scores': {'12': 0, '8': 0}, 'grades': {'12': None, '8': None}}
+{'_id': ObjectId('67a81186f0db012d772ae780'), 'poster_id': 35, 'judges': [2, 25], 'matching_scores': {'2': 0, '25': 0}, 'grades': {'2': None, '25': None}}
+{'_id': ObjectId('67a81186f0db012d772ae781'), 'poster_id': 37, 'judges': [22, 21], 'matching_scores': {'22': 0, '21': 0}, 'grades': {'22': None, '21': None}}
+{'_id': ObjectId('67a81186f0db012d772ae782'), 'poster_id': 39, 'judges': [5, 27], 'matching_scores': {'5': 0, '27': 0}, 'grades': {'5': None, '27': None}}
+{'_id': ObjectId('67a81186f0db012d772ae783'), 'poster_id': 41, 'judges': [23, 24], 'matching_scores': {'23': 0, '24': 0}, 'grades': {'23': None, '24': None}}
+{'_id': ObjectId('67a81186f0db012d772ae784'), 'poster_id': 43, 'judges': [23, 1], 'matching_scores': {'23': 0, '1': 0}, 'grades': {'23': None, '1': None}}
+{'_id': ObjectId('67a81186f0db012d772ae785'), 'poster_id': 45, 'judges': [40, 11], 'matching_scores': {'40': 0, '11': 0}, 'grades': {'40': None, '11': None}}
+{'_id': ObjectId('67a81186f0db012d772ae786'), 'poster_id': 47, 'judges': [25, 30], 'matching_scores': {'25': 0, '30': 0}, 'grades': {'25': None, '30': None}}
+{'_id': ObjectId('67a81186f0db012d772ae787'), 'poster_id': 49, 'judges': [4, 22], 'matching_scores': {'4': 0, '22': 0}, 'grades': {'4': None, '22': None}}
+{'_id': ObjectId('67a81186f0db012d772ae788'), 'poster_id': 51, 'judges': [31, 18], 'matching_scores': {'31': 0, '18': 0}, 'grades': {'31': None, '18': None}}
+{'_id': ObjectId('67a81186f0db012d772ae789'), 'poster_id': 53, 'judges': [21, 24], 'matching_scores': {'21': 0, '24': 0}, 'grades': {'21': None, '24': None}}
+{'_id': ObjectId('67a81186f0db012d772ae78a'), 'poster_id': 55, 'judges': [36, 29], 'matching_scores': {'36': 0, '29': 0}, 'grades': {'36': None, '29': None}}
+{'_id': ObjectId('67a81186f0db012d772ae78b'), 'poster_id': 57, 'judges': [3, 15], 'matching_scores': {'3': 0, '15': 0}, 'grades': {'3': None, '15': None}}
+{'_id': ObjectId('67a81186f0db012d772ae78c'), 'poster_id': 59, 'judges': [23, 21], 'matching_scores': {'23': 0, '21': 0}, 'grades': {'23': None, '21': None}}
+{'_id': ObjectId('67a81186f0db012d772ae78d'), 'poster_id': 61, 'judges': [10, 34], 'matching_scores': {'10': 0, '34': 0}, 'grades': {'10': None, '34': None}}
+{'_id': ObjectId('67a81186f0db012d772ae78e'), 'poster_id': 63, 'judges': [14, 38], 'matching_scores': {'14': 0, '38': 0}, 'grades': {'14': None, '38': None}}
+{'_id': ObjectId('67a81186f0db012d772ae78f'), 'poster_id': 65, 'judges': [7, 17], 'matching_scores': {'7': 0, '17': 0}, 'grades': {'7': None, '17': None}}
+{'_id': ObjectId('67a81186f0db012d772ae790'), 'poster_id': 67, 'judges': [1, 35], 'matching_scores': {'1': 0, '35': 0}, 'grades': {'1': None, '35': None}}
+{'_id': ObjectId('67a81186f0db012d772ae791'), 'poster_id': 2, 'judges': [13, 39], 'matching_scores': {'13': 0, '39': 0}, 'grades': {'13': None, '39': None}}
+{'_id': ObjectId('67a81186f0db012d772ae792'), 'poster_id': 4, 'judges': [22, 25], 'matching_scores': {'22': 0, '25': 0}, 'grades': {'22': None, '25': None}}
+{'_id': ObjectId('67a81186f0db012d772ae793'), 'poster_id': 6, 'judges': [35, 40], 'matching_scores': {'35': 0, '40': 0}, 'grades': {'35': None, '40': None}}
+{'_id': ObjectId('67a81186f0db012d772ae794'), 'poster_id': 8, 'judges': [39, 19], 'matching_scores': {'39': 0, '19': 0}, 'grades': {'39': None, '19': None}}
+{'_id': ObjectId('67a81186f0db012d772ae795'), 'poster_id': 10, 'judges': [37, 20], 'matching_scores': {'37': 0, '20': 0}, 'grades': {'37': None, '20': None}}
+{'_id': ObjectId('67a81186f0db012d772ae796'), 'poster_id': 12, 'judges': [28, 5], 'matching_scores': {'28': 0, '5': 0}, 'grades': {'28': None, '5': None}}
+{'_id': ObjectId('67a81186f0db012d772ae797'), 'poster_id': 14, 'judges': [19, 31], 'matching_scores': {'19': 0, '31': 0}, 'grades': {'19': None, '31': None}}
+{'_id': ObjectId('67a81186f0db012d772ae798'), 'poster_id': 16, 'judges': [9, 30], 'matching_scores': {'9': 0, '30': 0}, 'grades': {'9': None, '30': None}}
+{'_id': ObjectId('67a81186f0db012d772ae799'), 'poster_id': 18, 'judges': [39, 8], 'matching_scores': {'39': 0, '8': 0}, 'grades': {'39': None, '8': None}}
+{'_id': ObjectId('67a81186f0db012d772ae79a'), 'poster_id': 20, 'judges': [2, 2], 'matching_scores': {'2': 0}, 'grades': {'2': None}}
+{'_id': ObjectId('67a81186f0db012d772ae79b'), 'poster_id': 22, 'judges': [6, 6], 'matching_scores': {'6': 0}, 'grades': {'6': None}}
+{'_id': ObjectId('67a81186f0db012d772ae79c'), 'poster_id': 24, 'judges': [26, 40], 'matching_scores': {'26': 0, '40': 0}, 'grades': {'26': None, '40': None}}
+{'_id': ObjectId('67a81186f0db012d772ae79d'), 'poster_id': 26, 'judges': [3, 31], 'matching_scores': {'3': 0, '31': 0}, 'grades': {'3': None, '31': None}}
+{'_id': ObjectId('67a81186f0db012d772ae79e'), 'poster_id': 28, 'judges': [10, 12], 'matching_scores': {'10': 0, '12': 0}, 'grades': {'10': None, '12': None}}
+{'_id': ObjectId('67a81186f0db012d772ae79f'), 'poster_id': 30, 'judges': [35, 33], 'matching_scores': {'35': 0, '33': 0}, 'grades': {'35': None, '33': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7a0'), 'poster_id': 32, 'judges': [17, 24], 'matching_scores': {'17': 0, '24': 0}, 'grades': {'17': None, '24': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7a1'), 'poster_id': 34, 'judges': [24, 5], 'matching_scores': {'24': 0, '5': 0}, 'grades': {'24': None, '5': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7a2'), 'poster_id': 36, 'judges': [25, 7], 'matching_scores': {'25': 0, '7': 0}, 'grades': {'25': None, '7': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7a3'), 'poster_id': 38, 'judges': [4, 14], 'matching_scores': {'4': 0, '14': 0}, 'grades': {'4': None, '14': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7a4'), 'poster_id': 40, 'judges': [8, 6], 'matching_scores': {'8': 0, '6': 0}, 'grades': {'8': None, '6': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7a5'), 'poster_id': 42, 'judges': [24, 17], 'matching_scores': {'24': 0, '17': 0}, 'grades': {'24': None, '17': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7a6'), 'poster_id': 44, 'judges': [18, 40], 'matching_scores': {'18': 0, '40': 0}, 'grades': {'18': None, '40': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7a7'), 'poster_id': 46, 'judges': [39, 13], 'matching_scores': {'39': 0, '13': 0}, 'grades': {'39': None, '13': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7a8'), 'poster_id': 48, 'judges': [1, 9], 'matching_scores': {'1': 0, '9': 0}, 'grades': {'1': None, '9': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7a9'), 'poster_id': 50, 'judges': [38, 4], 'matching_scores': {'38': 0, '4': 0}, 'grades': {'38': None, '4': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7aa'), 'poster_id': 52, 'judges': [16, 30], 'matching_scores': {'16': 0, '30': 0}, 'grades': {'16': None, '30': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7ab'), 'poster_id': 54, 'judges': [22, 27], 'matching_scores': {'22': 0, '27': 0}, 'grades': {'22': None, '27': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7ac'), 'poster_id': 56, 'judges': [15, 30], 'matching_scores': {'15': 0, '30': 0}, 'grades': {'15': None, '30': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7ad'), 'poster_id': 58, 'judges': [30, 3], 'matching_scores': {'30': 0, '3': 0}, 'grades': {'30': None, '3': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7ae'), 'poster_id': 60, 'judges': [31, 6], 'matching_scores': {'31': 0, '6': 0}, 'grades': {'31': None, '6': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7af'), 'poster_id': 62, 'judges': [9, 23], 'matching_scores': {'9': 0, '23': 0}, 'grades': {'9': None, '23': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7b0'), 'poster_id': 64, 'judges': [6, 16], 'matching_scores': {'6': 0, '16': 0}, 'grades': {'6': None, '16': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7b1'), 'poster_id': 66, 'judges': [11, 28], 'matching_scores': {'11': 0, '28': 0}, 'grades': {'11': None, '28': None}}
+{'_id': ObjectId('67a81186f0db012d772ae7b2'), 'poster_id': 68, 'judges': [33, 38], 'matching_scores': {'33': 0, '38': 0}, 'grades': {'33': None, '38': None}}
