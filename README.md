@@ -74,6 +74,8 @@ Once MongoDB is running and the Python dependencies are installed, you can run t
 
 ```bash
 python3 main.py
+```  <-- **Crucially, there is a newline here now.**
+
 ## 3. Project Structure and Branches <a name="project-structure-and-branches"></a>
 
 This project uses a branching strategy for development:
