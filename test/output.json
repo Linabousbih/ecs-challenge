@@ -1,111 +1,111 @@
 Judges:
-{'_id': ObjectId('67a8df3acefa951951cbab6e'), 'username': 'Jeongmin Ahn', 'password': None, 'assigned_posters': [7, 23, 25, 51, 6, 20]}
-{'_id': ObjectId('67a8df3acefa951951cbab6f'), 'username': 'Ben Akih-Kumgeh', 'password': None, 'assigned_posters': [25, 37, 53, 40, 42, 48]}
-{'_id': ObjectId('67a8df3acefa951951cbab70'), 'username': 'Jesse Q. Bond', 'password': None, 'assigned_posters': [57]}
-{'_id': ObjectId('67a8df3acefa951951cbab71'), 'username': 'Elizabeth Carter', 'password': None, 'assigned_posters': [19, 27, 48, 64, 68]}
-{'_id': ObjectId('67a8df3acefa951951cbab72'), 'username': 'C.Y. Roger Chen', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab73'), 'username': 'Ruth Chen', 'password': None, 'assigned_posters': [58]}
-{'_id': ObjectId('67a8df3acefa951951cbab74'), 'username': 'John F. Dannenhoffer', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab75'), 'username': 'Gabriel Silva De Oliveira', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab76'), 'username': 'Bing Dong', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab77'), 'username': 'Zhenyu Gan', 'password': None, 'assigned_posters': [1, 19, 27, 33, 39, 55]}
-{'_id': ObjectId('67a8df3acefa951951cbab78'), 'username': 'Nadeem Ghani', 'password': None, 'assigned_posters': [11, 49, 59, 61, 63, 34]}
-{'_id': ObjectId('67a8df3acefa951951cbab79'), 'username': 'M. Cenk Gursoy', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab7a'), 'username': 'Jay Henderson', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab7b'), 'username': 'Endadul Hoque', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab7c'), 'username': 'Ian Hosein', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab7d'), 'username': 'Era Jain', 'password': None, 'assigned_posters': [5, 13, 17, 50, 68]}
-{'_id': ObjectId('67a8df3acefa951951cbab7e'), 'username': 'Pankaj Jha', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab7f'), 'username': 'Min Liu', 'password': None, 'assigned_posters': [21, 33, 39, 8, 30, 66]}
-{'_id': ObjectId('67a8df3acefa951951cbab80'), 'username': 'Zhen Ma', 'password': None, 'assigned_posters': [31, 67, 32]}
-{'_id': ObjectId('67a8df3acefa951951cbab81'), 'username': 'Shalabh Maroo', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab82'), 'username': 'Joao Paulo Marum', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab83'), 'username': 'Chikukuri Monhan', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab84'), 'username': 'Mary Beth Monroe', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab85'), 'username': 'Shikha Nangia', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab86'), 'username': 'Anupam Pandey', 'password': None, 'assigned_posters': [1, 13, 23, 47, 6, 22]}
-{'_id': ObjectId('67a8df3acefa951951cbab87'), 'username': 'Jason Pollack', 'password': None, 'assigned_posters': [35, 63, 4, 10, 18, 38]}
-{'_id': ObjectId('67a8df3acefa951951cbab88'), 'username': 'Qinru Qiu', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab89'), 'username': 'Farzana Rahman', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab8a'), 'username': 'Younes Radi', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab8b'), 'username': 'Baris Salman', 'password': None, 'assigned_posters': [21, 31, 41, 45, 18, 26]}
-{'_id': ObjectId('67a8df3acefa951951cbab8c'), 'username': 'Ashok Sangani', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab8d'), 'username': 'Amit Sanyal', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab8e'), 'username': 'Wanliang Shan', 'password': None, 'assigned_posters': [29, 51, 53, 55]}
-{'_id': ObjectId('67a8df3acefa951951cbab8f'), 'username': 'Sucheta Soundarajan', 'password': None, 'assigned_posters': []}
-{'_id': ObjectId('67a8df3acefa951951cbab90'), 'username': 'Yiyang Sun', 'password': None, 'assigned_posters': [43, 45, 4, 38, 54]}
-{'_id': ObjectId('67a8df3acefa951951cbab91'), 'username': 'Yuzhe Tang', 'password': None, 'assigned_posters': [3, 9, 15, 57, 65, 2]}
-{'_id': ObjectId('67a8df3acefa951951cbab92'), 'username': 'Svetoslava Todorova', 'password': None, 'assigned_posters': [41, 65, 67, 12, 20, 36]}
-{'_id': ObjectId('67a8df3acefa951951cbab93'), 'username': 'Senem Velipasalar', 'password': None, 'assigned_posters': [3, 9, 15, 35, 37, 49]}
-{'_id': ObjectId('67a8df3acefa951951cbab94'), 'username': 'Yaoying Wu', 'password': None, 'assigned_posters': [5, 7, 17, 29, 43, 47]}
-{'_id': ObjectId('67a8df3acefa951951cbab95'), 'username': 'Yi Zheng', 'password': None, 'assigned_posters': [11, 59, 61, 34, 46, 52]}
+{'_id': ObjectId('67a8e56931851b29725fa142'), 'username': 'Jeongmin Ahn', 'password': None, 'assigned_posters': [7, 23, 25, 51, 6, 20]}
+{'_id': ObjectId('67a8e56931851b29725fa143'), 'username': 'Ben Akih-Kumgeh', 'password': None, 'assigned_posters': [25, 37, 53, 40, 42, 48]}
+{'_id': ObjectId('67a8e56931851b29725fa144'), 'username': 'Jesse Q. Bond', 'password': None, 'assigned_posters': [13]}
+{'_id': ObjectId('67a8e56931851b29725fa145'), 'username': 'Elizabeth Carter', 'password': None, 'assigned_posters': [17, 67, 4, 58, 68]}
+{'_id': ObjectId('67a8e56931851b29725fa146'), 'username': 'C.Y. Roger Chen', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa147'), 'username': 'Ruth Chen', 'password': None, 'assigned_posters': [45]}
+{'_id': ObjectId('67a8e56931851b29725fa148'), 'username': 'John F. Dannenhoffer', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa149'), 'username': 'Gabriel Silva De Oliveira', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa14a'), 'username': 'Bing Dong', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa14b'), 'username': 'Zhenyu Gan', 'password': None, 'assigned_posters': [1, 19, 27, 33, 39, 55]}
+{'_id': ObjectId('67a8e56931851b29725fa14c'), 'username': 'Nadeem Ghani', 'password': None, 'assigned_posters': [11, 49, 59, 61, 63, 34]}
+{'_id': ObjectId('67a8e56931851b29725fa14d'), 'username': 'M. Cenk Gursoy', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa14e'), 'username': 'Jay Henderson', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa14f'), 'username': 'Endadul Hoque', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa150'), 'username': 'Ian Hosein', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa151'), 'username': 'Era Jain', 'password': None, 'assigned_posters': [5, 29, 57, 48, 68]}
+{'_id': ObjectId('67a8e56931851b29725fa152'), 'username': 'Pankaj Jha', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa153'), 'username': 'Min Liu', 'password': None, 'assigned_posters': [21, 33, 39, 8, 30, 66]}
+{'_id': ObjectId('67a8e56931851b29725fa154'), 'username': 'Zhen Ma', 'password': None, 'assigned_posters': [55, 54, 64]}
+{'_id': ObjectId('67a8e56931851b29725fa155'), 'username': 'Shalabh Maroo', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa156'), 'username': 'Joao Paulo Marum', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa157'), 'username': 'Chikukuri Monhan', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa158'), 'username': 'Mary Beth Monroe', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa159'), 'username': 'Shikha Nangia', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa15a'), 'username': 'Anupam Pandey', 'password': None, 'assigned_posters': [1, 13, 23, 47, 6, 22]}
+{'_id': ObjectId('67a8e56931851b29725fa15b'), 'username': 'Jason Pollack', 'password': None, 'assigned_posters': [35, 63, 4, 10, 18, 38]}
+{'_id': ObjectId('67a8e56931851b29725fa15c'), 'username': 'Qinru Qiu', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa15d'), 'username': 'Farzana Rahman', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa15e'), 'username': 'Younes Radi', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa15f'), 'username': 'Baris Salman', 'password': None, 'assigned_posters': [21, 31, 41, 45, 18, 26]}
+{'_id': ObjectId('67a8e56931851b29725fa160'), 'username': 'Ashok Sangani', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa161'), 'username': 'Amit Sanyal', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa162'), 'username': 'Wanliang Shan', 'password': None, 'assigned_posters': [43, 53, 32, 38]}
+{'_id': ObjectId('67a8e56931851b29725fa163'), 'username': 'Sucheta Soundarajan', 'password': None, 'assigned_posters': []}
+{'_id': ObjectId('67a8e56931851b29725fa164'), 'username': 'Yiyang Sun', 'password': None, 'assigned_posters': [19, 27, 31, 51, 50]}
+{'_id': ObjectId('67a8e56931851b29725fa165'), 'username': 'Yuzhe Tang', 'password': None, 'assigned_posters': [3, 9, 15, 57, 65, 2]}
+{'_id': ObjectId('67a8e56931851b29725fa166'), 'username': 'Svetoslava Todorova', 'password': None, 'assigned_posters': [41, 65, 67, 12, 20, 36]}
+{'_id': ObjectId('67a8e56931851b29725fa167'), 'username': 'Senem Velipasalar', 'password': None, 'assigned_posters': [3, 9, 15, 35, 37, 49]}
+{'_id': ObjectId('67a8e56931851b29725fa168'), 'username': 'Yaoying Wu', 'password': None, 'assigned_posters': [5, 7, 17, 29, 43, 47]}
+{'_id': ObjectId('67a8e56931851b29725fa169'), 'username': 'Yi Zheng', 'password': None, 'assigned_posters': [11, 59, 61, 34, 46, 52]}
 
 Posters:
-{'_id': ObjectId('67a8df3acefa951951cbab96'), 'poster_id': 1, 'judges': ['Anupam Pandey', 'Zhenyu Gan'], 'matching_scores': {'Anupam Pandey': 0.522315263748169, 'Zhenyu Gan': 0.19357135891914368}, 'grades': {'Anupam Pandey': None, 'Zhenyu Gan': None}}
-{'_id': ObjectId('67a8df3acefa951951cbab97'), 'poster_id': 3, 'judges': ['Senem Velipasalar', 'Yuzhe Tang'], 'matching_scores': {'Senem Velipasalar': 0.27885371446609497, 'Yuzhe Tang': 0.21750152111053467}, 'grades': {'Senem Velipasalar': None, 'Yuzhe Tang': None}}
-{'_id': ObjectId('67a8df3acefa951951cbab98'), 'poster_id': 5, 'judges': ['Yaoying Wu', 'Era Jain'], 'matching_scores': {'Yaoying Wu': 0.47768455743789673, 'Era Jain': 0.42351627349853516}, 'grades': {'Yaoying Wu': None, 'Era Jain': None}}
-{'_id': ObjectId('67a8df3acefa951951cbab99'), 'poster_id': 7, 'judges': ['Yaoying Wu', 'Jeongmin Ahn'], 'matching_scores': {'Yaoying Wu': 0.13622698187828064, 'Jeongmin Ahn': 0.1295098513364792}, 'grades': {'Yaoying Wu': None, 'Jeongmin Ahn': None}}
-{'_id': ObjectId('67a8df3acefa951951cbab9a'), 'poster_id': 9, 'judges': ['Yuzhe Tang', 'Senem Velipasalar'], 'matching_scores': {'Yuzhe Tang': 0.2663939893245697, 'Senem Velipasalar': 0.2552226781845093}, 'grades': {'Yuzhe Tang': None, 'Senem Velipasalar': None}}
-{'_id': ObjectId('67a8df3acefa951951cbab9b'), 'poster_id': 11, 'judges': ['Nadeem Ghani', 'Yi Zheng'], 'matching_scores': {'Nadeem Ghani': 0.12593352794647217, 'Yi Zheng': 0.12593352794647217}, 'grades': {'Nadeem Ghani': None, 'Yi Zheng': None}}
-{'_id': ObjectId('67a8df3acefa951951cbab9c'), 'poster_id': 13, 'judges': ['Anupam Pandey', 'Era Jain'], 'matching_scores': {'Anupam Pandey': 0.26465433835983276, 'Era Jain': 0.23532894253730774}, 'grades': {'Anupam Pandey': None, 'Era Jain': None}}
-{'_id': ObjectId('67a8df3acefa951951cbab9d'), 'poster_id': 15, 'judges': ['Yuzhe Tang', 'Senem Velipasalar'], 'matching_scores': {'Yuzhe Tang': 0.36746519804000854, 'Senem Velipasalar': 0.26853615045547485}, 'grades': {'Yuzhe Tang': None, 'Senem Velipasalar': None}}
-{'_id': ObjectId('67a8df3acefa951951cbab9e'), 'poster_id': 17, 'judges': ['Yaoying Wu', 'Era Jain'], 'matching_scores': {'Yaoying Wu': 0.396107941865921, 'Era Jain': 0.3595316708087921}, 'grades': {'Yaoying Wu': None, 'Era Jain': None}}
-{'_id': ObjectId('67a8df3acefa951951cbab9f'), 'poster_id': 19, 'judges': ['Elizabeth Carter', 'Zhenyu Gan'], 'matching_scores': {'Elizabeth Carter': 0.15095320343971252, 'Zhenyu Gan': 0.2724427580833435}, 'grades': {'Elizabeth Carter': None, 'Zhenyu Gan': None}}
-{'_id': ObjectId('67a8df3acefa951951cbaba0'), 'poster_id': 21, 'judges': ['Baris Salman', 'Min Liu'], 'matching_scores': {'Baris Salman': 0.3024592399597168, 'Min Liu': 0.2438538670539856}, 'grades': {'Baris Salman': None, 'Min Liu': None}}
-{'_id': ObjectId('67a8df3acefa951951cbaba1'), 'poster_id': 23, 'judges': ['Jeongmin Ahn', 'Anupam Pandey'], 'matching_scores': {'Jeongmin Ahn': 0.3456040620803833, 'Anupam Pandey': 0.22209955751895905}, 'grades': {'Jeongmin Ahn': None, 'Anupam Pandey': None}}
-{'_id': ObjectId('67a8df3acefa951951cbaba2'), 'poster_id': 25, 'judges': ['Jeongmin Ahn', 'Ben Akih-Kumgeh'], 'matching_scores': {'Jeongmin Ahn': 0.21477894484996796, 'Ben Akih-Kumgeh': 0.15886841714382172}, 'grades': {'Jeongmin Ahn': None, 'Ben Akih-Kumgeh': None}}
-{'_id': ObjectId('67a8df3acefa951951cbaba3'), 'poster_id': 27, 'judges': ['Elizabeth Carter', 'Zhenyu Gan'], 'matching_scores': {'Elizabeth Carter': 0.14805972576141357, 'Zhenyu Gan': 0.2680712342262268}, 'grades': {'Elizabeth Carter': None, 'Zhenyu Gan': None}}
-{'_id': ObjectId('67a8df3acefa951951cbaba4'), 'poster_id': 29, 'judges': ['Wanliang Shan', 'Yaoying Wu'], 'matching_scores': {'Wanliang Shan': 0.11747919768095016, 'Yaoying Wu': 0.23250654339790344}, 'grades': {'Wanliang Shan': None, 'Yaoying Wu': None}}
-{'_id': ObjectId('67a8df3acefa951951cbaba5'), 'poster_id': 31, 'judges': ['Baris Salman', 'Zhen Ma'], 'matching_scores': {'Baris Salman': 0.21358658373355865, 'Zhen Ma': 0.0023718588054180145}, 'grades': {'Baris Salman': None, 'Zhen Ma': None}}
-{'_id': ObjectId('67a8df3acefa951951cbaba6'), 'poster_id': 33, 'judges': ['Zhenyu Gan', 'Min Liu'], 'matching_scores': {'Zhenyu Gan': 0.24523037672042847, 'Min Liu': 0.13570746779441833}, 'grades': {'Zhenyu Gan': None, 'Min Liu': None}}
-{'_id': ObjectId('67a8df3acefa951951cbaba7'), 'poster_id': 35, 'judges': ['Senem Velipasalar', 'Jason Pollack'], 'matching_scores': {'Senem Velipasalar': 0.20418576896190643, 'Jason Pollack': 0.13319598138332367}, 'grades': {'Senem Velipasalar': None, 'Jason Pollack': None}}
-{'_id': ObjectId('67a8df3acefa951951cbaba8'), 'poster_id': 37, 'judges': ['Senem Velipasalar', 'Ben Akih-Kumgeh'], 'matching_scores': {'Senem Velipasalar': 0.24340854585170746, 'Ben Akih-Kumgeh': 0.14495086669921875}, 'grades': {'Senem Velipasalar': None, 'Ben Akih-Kumgeh': None}}
-{'_id': ObjectId('67a8df3acefa951951cbaba9'), 'poster_id': 39, 'judges': ['Zhenyu Gan', 'Min Liu'], 'matching_scores': {'Zhenyu Gan': 0.322330117225647, 'Min Liu': 0.2488880157470703}, 'grades': {'Zhenyu Gan': None, 'Min Liu': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabaa'), 'poster_id': 41, 'judges': ['Baris Salman', 'Svetoslava Todorova'], 'matching_scores': {'Baris Salman': 0.34037157893180847, 'Svetoslava Todorova': 0.27547186613082886}, 'grades': {'Baris Salman': None, 'Svetoslava Todorova': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabab'), 'poster_id': 43, 'judges': ['Yiyang Sun', 'Yaoying Wu'], 'matching_scores': {'Yiyang Sun': 0.10803015530109406, 'Yaoying Wu': 0.25050491094589233}, 'grades': {'Yiyang Sun': None, 'Yaoying Wu': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabac'), 'poster_id': 45, 'judges': ['Baris Salman', 'Yiyang Sun'], 'matching_scores': {'Baris Salman': 0.20134490728378296, 'Yiyang Sun': -0.009214859455823898}, 'grades': {'Baris Salman': None, 'Yiyang Sun': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabad'), 'poster_id': 47, 'judges': ['Anupam Pandey', 'Yaoying Wu'], 'matching_scores': {'Anupam Pandey': 0.38663703203201294, 'Yaoying Wu': 0.274105966091156}, 'grades': {'Anupam Pandey': None, 'Yaoying Wu': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabae'), 'poster_id': 49, 'judges': ['Senem Velipasalar', 'Nadeem Ghani'], 'matching_scores': {'Senem Velipasalar': 0.295337438583374, 'Nadeem Ghani': 0.2067754864692688}, 'grades': {'Senem Velipasalar': None, 'Nadeem Ghani': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabaf'), 'poster_id': 51, 'judges': ['Jeongmin Ahn', 'Wanliang Shan'], 'matching_scores': {'Jeongmin Ahn': 0.31598782539367676, 'Wanliang Shan': 0.20235279202461243}, 'grades': {'Jeongmin Ahn': None, 'Wanliang Shan': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabb0'), 'poster_id': 53, 'judges': ['Ben Akih-Kumgeh', 'Wanliang Shan'], 'matching_scores': {'Ben Akih-Kumgeh': 0.3054606318473816, 'Wanliang Shan': 0.12427438795566559}, 'grades': {'Ben Akih-Kumgeh': None, 'Wanliang Shan': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabb1'), 'poster_id': 55, 'judges': ['Zhenyu Gan', 'Wanliang Shan'], 'matching_scores': {'Zhenyu Gan': 0.2549395263195038, 'Wanliang Shan': 0.15188874304294586}, 'grades': {'Zhenyu Gan': None, 'Wanliang Shan': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabb2'), 'poster_id': 57, 'judges': ['Yuzhe Tang', 'Jesse Q. Bond'], 'matching_scores': {'Yuzhe Tang': 0.18755754828453064, 'Jesse Q. Bond': 0.012100700289011002}, 'grades': {'Yuzhe Tang': None, 'Jesse Q. Bond': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabb3'), 'poster_id': 59, 'judges': ['Nadeem Ghani', 'Yi Zheng'], 'matching_scores': {'Nadeem Ghani': 0.10830499231815338, 'Yi Zheng': 0.10830499231815338}, 'grades': {'Nadeem Ghani': None, 'Yi Zheng': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabb4'), 'poster_id': 61, 'judges': ['Nadeem Ghani', 'Yi Zheng'], 'matching_scores': {'Nadeem Ghani': 0.298164427280426, 'Yi Zheng': 0.298164427280426}, 'grades': {'Nadeem Ghani': None, 'Yi Zheng': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabb5'), 'poster_id': 63, 'judges': ['Jason Pollack', 'Nadeem Ghani'], 'matching_scores': {'Jason Pollack': 0.21119938790798187, 'Nadeem Ghani': 0.16498103737831116}, 'grades': {'Jason Pollack': None, 'Nadeem Ghani': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabb6'), 'poster_id': 65, 'judges': ['Svetoslava Todorova', 'Yuzhe Tang'], 'matching_scores': {'Svetoslava Todorova': 0.1731688678264618, 'Yuzhe Tang': 0.1588633507490158}, 'grades': {'Svetoslava Todorova': None, 'Yuzhe Tang': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabb7'), 'poster_id': 67, 'judges': ['Svetoslava Todorova', 'Zhen Ma'], 'matching_scores': {'Svetoslava Todorova': 0.1988808512687683, 'Zhen Ma': 0.04323255270719528}, 'grades': {'Svetoslava Todorova': None, 'Zhen Ma': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabb8'), 'poster_id': 2, 'judges': ['Yuzhe Tang'], 'matching_scores': {'Yuzhe Tang': 0.15784375369548798}, 'grades': {'Yuzhe Tang': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabb9'), 'poster_id': 4, 'judges': ['Jason Pollack', 'Yiyang Sun'], 'matching_scores': {'Jason Pollack': 0.36809492111206055, 'Yiyang Sun': 0.028688061982393265}, 'grades': {'Jason Pollack': None, 'Yiyang Sun': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabba'), 'poster_id': 6, 'judges': ['Anupam Pandey', 'Jeongmin Ahn'], 'matching_scores': {'Anupam Pandey': 0.367704302072525, 'Jeongmin Ahn': 0.2530392110347748}, 'grades': {'Anupam Pandey': None, 'Jeongmin Ahn': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabbb'), 'poster_id': 8, 'judges': ['Min Liu'], 'matching_scores': {'Min Liu': 0.1822340041399002}, 'grades': {'Min Liu': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabbc'), 'poster_id': 10, 'judges': ['Jason Pollack'], 'matching_scores': {'Jason Pollack': 0.47866347432136536}, 'grades': {'Jason Pollack': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabbd'), 'poster_id': 12, 'judges': ['Svetoslava Todorova'], 'matching_scores': {'Svetoslava Todorova': 0.12719161808490753}, 'grades': {'Svetoslava Todorova': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabbe'), 'poster_id': 14, 'judges': [], 'matching_scores': {}, 'grades': {}}
-{'_id': ObjectId('67a8df3acefa951951cbabbf'), 'poster_id': 16, 'judges': [], 'matching_scores': {}, 'grades': {}}
-{'_id': ObjectId('67a8df3acefa951951cbabc0'), 'poster_id': 18, 'judges': ['Baris Salman', 'Jason Pollack'], 'matching_scores': {'Baris Salman': 0.16934290528297424, 'Jason Pollack': 0.12885601818561554}, 'grades': {'Baris Salman': None, 'Jason Pollack': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabc1'), 'poster_id': 20, 'judges': ['Jeongmin Ahn', 'Svetoslava Todorova'], 'matching_scores': {'Jeongmin Ahn': 0.33685916662216187, 'Svetoslava Todorova': 0.17677100002765656}, 'grades': {'Jeongmin Ahn': None, 'Svetoslava Todorova': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabc2'), 'poster_id': 22, 'judges': ['Anupam Pandey'], 'matching_scores': {'Anupam Pandey': 0.23503127694129944}, 'grades': {'Anupam Pandey': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabc3'), 'poster_id': 24, 'judges': [], 'matching_scores': {}, 'grades': {}}
-{'_id': ObjectId('67a8df3acefa951951cbabc4'), 'poster_id': 26, 'judges': ['Baris Salman'], 'matching_scores': {'Baris Salman': 0.24003639817237854}, 'grades': {'Baris Salman': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabc5'), 'poster_id': 28, 'judges': [], 'matching_scores': {}, 'grades': {}}
-{'_id': ObjectId('67a8df3acefa951951cbabc6'), 'poster_id': 30, 'judges': ['Min Liu'], 'matching_scores': {'Min Liu': 0.19558940827846527}, 'grades': {'Min Liu': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabc7'), 'poster_id': 32, 'judges': ['Zhen Ma'], 'matching_scores': {'Zhen Ma': 0.10343702882528305}, 'grades': {'Zhen Ma': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabc8'), 'poster_id': 34, 'judges': ['Nadeem Ghani', 'Yi Zheng'], 'matching_scores': {'Nadeem Ghani': 0.28207314014434814, 'Yi Zheng': 0.28207314014434814}, 'grades': {'Nadeem Ghani': None, 'Yi Zheng': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabc9'), 'poster_id': 36, 'judges': ['Svetoslava Todorova'], 'matching_scores': {'Svetoslava Todorova': 0.24081532657146454}, 'grades': {'Svetoslava Todorova': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabca'), 'poster_id': 38, 'judges': ['Jason Pollack', 'Yiyang Sun'], 'matching_scores': {'Jason Pollack': 0.4199375808238983, 'Yiyang Sun': 0.0826415866613388}, 'grades': {'Jason Pollack': None, 'Yiyang Sun': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabcb'), 'poster_id': 40, 'judges': ['Ben Akih-Kumgeh'], 'matching_scores': {'Ben Akih-Kumgeh': 0.1979697346687317}, 'grades': {'Ben Akih-Kumgeh': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabcc'), 'poster_id': 42, 'judges': ['Ben Akih-Kumgeh'], 'matching_scores': {'Ben Akih-Kumgeh': 0.17859360575675964}, 'grades': {'Ben Akih-Kumgeh': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabcd'), 'poster_id': 44, 'judges': [], 'matching_scores': {}, 'grades': {}}
-{'_id': ObjectId('67a8df3acefa951951cbabce'), 'poster_id': 46, 'judges': ['Yi Zheng'], 'matching_scores': {'Yi Zheng': 0.11172029376029968}, 'grades': {'Yi Zheng': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabcf'), 'poster_id': 48, 'judges': ['Elizabeth Carter', 'Ben Akih-Kumgeh'], 'matching_scores': {'Elizabeth Carter': 0.11451633274555206, 'Ben Akih-Kumgeh': 0.11451633274555206}, 'grades': {'Elizabeth Carter': None, 'Ben Akih-Kumgeh': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabd0'), 'poster_id': 50, 'judges': ['Era Jain'], 'matching_scores': {'Era Jain': 0.23185880482196808}, 'grades': {'Era Jain': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabd1'), 'poster_id': 52, 'judges': ['Yi Zheng'], 'matching_scores': {'Yi Zheng': 0.1517297327518463}, 'grades': {'Yi Zheng': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabd2'), 'poster_id': 54, 'judges': ['Yiyang Sun'], 'matching_scores': {'Yiyang Sun': 0.16434092819690704}, 'grades': {'Yiyang Sun': None}}
-{'_id': ObjectId('67a8df3acefa951951cbabd3'), 'poster_id': 56, 'judges': [], 'matching_scores': {}, 'grades': {}}
-{'_id': ObjectId('67a8df3bcefa951951cbabd4'), 'poster_id': 58, 'judges': ['Ruth Chen'], 'matching_scores': {'Ruth Chen': 0.14990609884262085}, 'grades': {'Ruth Chen': None}}
-{'_id': ObjectId('67a8df3bcefa951951cbabd5'), 'poster_id': 60, 'judges': [], 'matching_scores': {}, 'grades': {}}
-{'_id': ObjectId('67a8df3bcefa951951cbabd6'), 'poster_id': 62, 'judges': [], 'matching_scores': {}, 'grades': {}}
-{'_id': ObjectId('67a8df3bcefa951951cbabd7'), 'poster_id': 64, 'judges': ['Elizabeth Carter'], 'matching_scores': {'Elizabeth Carter': 0.2886766493320465}, 'grades': {'Elizabeth Carter': None}}
-{'_id': ObjectId('67a8df3bcefa951951cbabd8'), 'poster_id': 66, 'judges': ['Min Liu'], 'matching_scores': {'Min Liu': 0.22132770717144012}, 'grades': {'Min Liu': None}}
-{'_id': ObjectId('67a8df3bcefa951951cbabd9'), 'poster_id': 68, 'judges': ['Era Jain', 'Elizabeth Carter'], 'matching_scores': {'Era Jain': -0.013681475073099136, 'Elizabeth Carter': 0.2403925061225891}, 'grades': {'Era Jain': None, 'Elizabeth Carter': None}}
+{'_id': ObjectId('67a8e56931851b29725fa16a'), 'poster_id': 1, 'judges': ['Anupam Pandey', 'Zhenyu Gan'], 'matching_scores': {'Anupam Pandey': 0.522315263748169, 'Zhenyu Gan': 0.19357135891914368}, 'grades': {'Anupam Pandey': None, 'Zhenyu Gan': None}}
+{'_id': ObjectId('67a8e56931851b29725fa16b'), 'poster_id': 3, 'judges': ['Senem Velipasalar', 'Yuzhe Tang'], 'matching_scores': {'Senem Velipasalar': 0.27885371446609497, 'Yuzhe Tang': 0.21750152111053467}, 'grades': {'Senem Velipasalar': None, 'Yuzhe Tang': None}}
+{'_id': ObjectId('67a8e56931851b29725fa16c'), 'poster_id': 5, 'judges': ['Yaoying Wu', 'Era Jain'], 'matching_scores': {'Yaoying Wu': 0.47768455743789673, 'Era Jain': 0.42351627349853516}, 'grades': {'Yaoying Wu': None, 'Era Jain': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa16d'), 'poster_id': 7, 'judges': ['Yaoying Wu', 'Jeongmin Ahn'], 'matching_scores': {'Yaoying Wu': 0.13622698187828064, 'Jeongmin Ahn': 0.1295098513364792}, 'grades': {'Yaoying Wu': None, 'Jeongmin Ahn': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa16e'), 'poster_id': 9, 'judges': ['Yuzhe Tang', 'Senem Velipasalar'], 'matching_scores': {'Yuzhe Tang': 0.2663939893245697, 'Senem Velipasalar': 0.2552226781845093}, 'grades': {'Yuzhe Tang': None, 'Senem Velipasalar': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa16f'), 'poster_id': 11, 'judges': ['Nadeem Ghani', 'Yi Zheng'], 'matching_scores': {'Nadeem Ghani': 0.12593352794647217, 'Yi Zheng': 0.12593352794647217}, 'grades': {'Nadeem Ghani': None, 'Yi Zheng': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa170'), 'poster_id': 13, 'judges': ['Anupam Pandey', 'Jesse Q. Bond'], 'matching_scores': {'Anupam Pandey': 0.26465433835983276, 'Jesse Q. Bond': -0.03439320623874664}, 'grades': {'Anupam Pandey': None, 'Jesse Q. Bond': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa171'), 'poster_id': 15, 'judges': ['Yuzhe Tang', 'Senem Velipasalar'], 'matching_scores': {'Yuzhe Tang': 0.36746519804000854, 'Senem Velipasalar': 0.26853615045547485}, 'grades': {'Yuzhe Tang': None, 'Senem Velipasalar': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa172'), 'poster_id': 17, 'judges': ['Yaoying Wu', 'Elizabeth Carter'], 'matching_scores': {'Yaoying Wu': 0.396107941865921, 'Elizabeth Carter': 0.012060174718499184}, 'grades': {'Yaoying Wu': None, 'Elizabeth Carter': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa173'), 'poster_id': 19, 'judges': ['Yiyang Sun', 'Zhenyu Gan'], 'matching_scores': {'Yiyang Sun': 0.13339166343212128, 'Zhenyu Gan': 0.2724427580833435}, 'grades': {'Yiyang Sun': None, 'Zhenyu Gan': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa174'), 'poster_id': 21, 'judges': ['Baris Salman', 'Min Liu'], 'matching_scores': {'Baris Salman': 0.3024592399597168, 'Min Liu': 0.2438538670539856}, 'grades': {'Baris Salman': None, 'Min Liu': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa175'), 'poster_id': 23, 'judges': ['Jeongmin Ahn', 'Anupam Pandey'], 'matching_scores': {'Jeongmin Ahn': 0.3456040620803833, 'Anupam Pandey': 0.22209955751895905}, 'grades': {'Jeongmin Ahn': None, 'Anupam Pandey': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa176'), 'poster_id': 25, 'judges': ['Jeongmin Ahn', 'Ben Akih-Kumgeh'], 'matching_scores': {'Jeongmin Ahn': 0.21477894484996796, 'Ben Akih-Kumgeh': 0.15886841714382172}, 'grades': {'Jeongmin Ahn': None, 'Ben Akih-Kumgeh': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa177'), 'poster_id': 27, 'judges': ['Yiyang Sun', 'Zhenyu Gan'], 'matching_scores': {'Yiyang Sun': 0.2750842571258545, 'Zhenyu Gan': 0.2680712342262268}, 'grades': {'Yiyang Sun': None, 'Zhenyu Gan': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa178'), 'poster_id': 29, 'judges': ['Era Jain', 'Yaoying Wu'], 'matching_scores': {'Era Jain': 0.17958834767341614, 'Yaoying Wu': 0.23250654339790344}, 'grades': {'Era Jain': None, 'Yaoying Wu': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa179'), 'poster_id': 31, 'judges': ['Baris Salman', 'Yiyang Sun'], 'matching_scores': {'Baris Salman': 0.21358658373355865, 'Yiyang Sun': 0.2092612385749817}, 'grades': {'Baris Salman': None, 'Yiyang Sun': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa17a'), 'poster_id': 33, 'judges': ['Zhenyu Gan', 'Min Liu'], 'matching_scores': {'Zhenyu Gan': 0.24523037672042847, 'Min Liu': 0.13570746779441833}, 'grades': {'Zhenyu Gan': None, 'Min Liu': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa17b'), 'poster_id': 35, 'judges': ['Senem Velipasalar', 'Jason Pollack'], 'matching_scores': {'Senem Velipasalar': 0.20418576896190643, 'Jason Pollack': 0.13319598138332367}, 'grades': {'Senem Velipasalar': None, 'Jason Pollack': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa17c'), 'poster_id': 37, 'judges': ['Senem Velipasalar', 'Ben Akih-Kumgeh'], 'matching_scores': {'Senem Velipasalar': 0.24340854585170746, 'Ben Akih-Kumgeh': 0.14495086669921875}, 'grades': {'Senem Velipasalar': None, 'Ben Akih-Kumgeh': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa17d'), 'poster_id': 39, 'judges': ['Zhenyu Gan', 'Min Liu'], 'matching_scores': {'Zhenyu Gan': 0.322330117225647, 'Min Liu': 0.2488880157470703}, 'grades': {'Zhenyu Gan': None, 'Min Liu': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa17e'), 'poster_id': 41, 'judges': ['Baris Salman', 'Svetoslava Todorova'], 'matching_scores': {'Baris Salman': 0.34037157893180847, 'Svetoslava Todorova': 0.27547186613082886}, 'grades': {'Baris Salman': None, 'Svetoslava Todorova': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa17f'), 'poster_id': 43, 'judges': ['Wanliang Shan', 'Yaoying Wu'], 'matching_scores': {'Wanliang Shan': 0.12844395637512207, 'Yaoying Wu': 0.25050491094589233}, 'grades': {'Wanliang Shan': None, 'Yaoying Wu': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa180'), 'poster_id': 45, 'judges': ['Baris Salman', 'Ruth Chen'], 'matching_scores': {'Baris Salman': 0.20134490728378296, 'Ruth Chen': 0.1343970149755478}, 'grades': {'Baris Salman': None, 'Ruth Chen': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa181'), 'poster_id': 47, 'judges': ['Anupam Pandey', 'Yaoying Wu'], 'matching_scores': {'Anupam Pandey': 0.38663703203201294, 'Yaoying Wu': 0.274105966091156}, 'grades': {'Anupam Pandey': None, 'Yaoying Wu': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa182'), 'poster_id': 49, 'judges': ['Senem Velipasalar', 'Nadeem Ghani'], 'matching_scores': {'Senem Velipasalar': 0.295337438583374, 'Nadeem Ghani': 0.2067754864692688}, 'grades': {'Senem Velipasalar': None, 'Nadeem Ghani': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa183'), 'poster_id': 51, 'judges': ['Jeongmin Ahn', 'Yiyang Sun'], 'matching_scores': {'Jeongmin Ahn': 0.31598782539367676, 'Yiyang Sun': 0.07019812613725662}, 'grades': {'Jeongmin Ahn': None, 'Yiyang Sun': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa184'), 'poster_id': 53, 'judges': ['Ben Akih-Kumgeh', 'Wanliang Shan'], 'matching_scores': {'Ben Akih-Kumgeh': 0.3054606318473816, 'Wanliang Shan': 0.12427438795566559}, 'grades': {'Ben Akih-Kumgeh': None, 'Wanliang Shan': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa185'), 'poster_id': 55, 'judges': ['Zhenyu Gan', 'Zhen Ma'], 'matching_scores': {'Zhenyu Gan': 0.2549395263195038, 'Zhen Ma': 0.15970034897327423}, 'grades': {'Zhenyu Gan': None, 'Zhen Ma': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa186'), 'poster_id': 57, 'judges': ['Yuzhe Tang', 'Era Jain'], 'matching_scores': {'Yuzhe Tang': 0.18755754828453064, 'Era Jain': -0.015905238687992096}, 'grades': {'Yuzhe Tang': None, 'Era Jain': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa187'), 'poster_id': 59, 'judges': ['Nadeem Ghani', 'Yi Zheng'], 'matching_scores': {'Nadeem Ghani': 0.10830499231815338, 'Yi Zheng': 0.10830499231815338}, 'grades': {'Nadeem Ghani': None, 'Yi Zheng': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa188'), 'poster_id': 61, 'judges': ['Nadeem Ghani', 'Yi Zheng'], 'matching_scores': {'Nadeem Ghani': 0.298164427280426, 'Yi Zheng': 0.298164427280426}, 'grades': {'Nadeem Ghani': None, 'Yi Zheng': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa189'), 'poster_id': 63, 'judges': ['Jason Pollack', 'Nadeem Ghani'], 'matching_scores': {'Jason Pollack': 0.21119938790798187, 'Nadeem Ghani': 0.16498103737831116}, 'grades': {'Jason Pollack': None, 'Nadeem Ghani': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa18a'), 'poster_id': 65, 'judges': ['Svetoslava Todorova', 'Yuzhe Tang'], 'matching_scores': {'Svetoslava Todorova': 0.1731688678264618, 'Yuzhe Tang': 0.1588633507490158}, 'grades': {'Svetoslava Todorova': None, 'Yuzhe Tang': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa18b'), 'poster_id': 67, 'judges': ['Svetoslava Todorova', 'Elizabeth Carter'], 'matching_scores': {'Svetoslava Todorova': 0.1988808512687683, 'Elizabeth Carter': 0.08630621433258057}, 'grades': {'Svetoslava Todorova': None, 'Elizabeth Carter': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa18c'), 'poster_id': 2, 'judges': ['Yuzhe Tang'], 'matching_scores': {'Yuzhe Tang': 0.15784375369548798}, 'grades': {'Yuzhe Tang': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa18d'), 'poster_id': 4, 'judges': ['Jason Pollack', 'Elizabeth Carter'], 'matching_scores': {'Jason Pollack': 0.36809492111206055, 'Elizabeth Carter': 0.018983222544193268}, 'grades': {'Jason Pollack': None, 'Elizabeth Carter': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa18e'), 'poster_id': 6, 'judges': ['Anupam Pandey', 'Jeongmin Ahn'], 'matching_scores': {'Anupam Pandey': 0.367704302072525, 'Jeongmin Ahn': 0.2530392110347748}, 'grades': {'Anupam Pandey': None, 'Jeongmin Ahn': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa18f'), 'poster_id': 8, 'judges': ['Min Liu'], 'matching_scores': {'Min Liu': 0.1822340041399002}, 'grades': {'Min Liu': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa190'), 'poster_id': 10, 'judges': ['Jason Pollack'], 'matching_scores': {'Jason Pollack': 0.47866347432136536}, 'grades': {'Jason Pollack': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa191'), 'poster_id': 12, 'judges': ['Svetoslava Todorova'], 'matching_scores': {'Svetoslava Todorova': 0.12719161808490753}, 'grades': {'Svetoslava Todorova': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa192'), 'poster_id': 14, 'judges': [], 'matching_scores': {}, 'grades': {}}
+{'_id': ObjectId('67a8e56a31851b29725fa193'), 'poster_id': 16, 'judges': [], 'matching_scores': {}, 'grades': {}}
+{'_id': ObjectId('67a8e56a31851b29725fa194'), 'poster_id': 18, 'judges': ['Baris Salman', 'Jason Pollack'], 'matching_scores': {'Baris Salman': 0.16934290528297424, 'Jason Pollack': 0.12885601818561554}, 'grades': {'Baris Salman': None, 'Jason Pollack': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa195'), 'poster_id': 20, 'judges': ['Jeongmin Ahn', 'Svetoslava Todorova'], 'matching_scores': {'Jeongmin Ahn': 0.33685916662216187, 'Svetoslava Todorova': 0.17677100002765656}, 'grades': {'Jeongmin Ahn': None, 'Svetoslava Todorova': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa196'), 'poster_id': 22, 'judges': ['Anupam Pandey'], 'matching_scores': {'Anupam Pandey': 0.23503127694129944}, 'grades': {'Anupam Pandey': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa197'), 'poster_id': 24, 'judges': [], 'matching_scores': {}, 'grades': {}}
+{'_id': ObjectId('67a8e56a31851b29725fa198'), 'poster_id': 26, 'judges': ['Baris Salman'], 'matching_scores': {'Baris Salman': 0.24003639817237854}, 'grades': {'Baris Salman': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa199'), 'poster_id': 28, 'judges': [], 'matching_scores': {}, 'grades': {}}
+{'_id': ObjectId('67a8e56a31851b29725fa19a'), 'poster_id': 30, 'judges': ['Min Liu'], 'matching_scores': {'Min Liu': 0.19558940827846527}, 'grades': {'Min Liu': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa19b'), 'poster_id': 32, 'judges': ['Wanliang Shan'], 'matching_scores': {'Wanliang Shan': 0.1767583191394806}, 'grades': {'Wanliang Shan': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa19c'), 'poster_id': 34, 'judges': ['Nadeem Ghani', 'Yi Zheng'], 'matching_scores': {'Nadeem Ghani': 0.28207314014434814, 'Yi Zheng': 0.28207314014434814}, 'grades': {'Nadeem Ghani': None, 'Yi Zheng': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa19d'), 'poster_id': 36, 'judges': ['Svetoslava Todorova'], 'matching_scores': {'Svetoslava Todorova': 0.24081532657146454}, 'grades': {'Svetoslava Todorova': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa19e'), 'poster_id': 38, 'judges': ['Jason Pollack', 'Wanliang Shan'], 'matching_scores': {'Jason Pollack': 0.4199375808238983, 'Wanliang Shan': 0.05166664347052574}, 'grades': {'Jason Pollack': None, 'Wanliang Shan': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa19f'), 'poster_id': 40, 'judges': ['Ben Akih-Kumgeh'], 'matching_scores': {'Ben Akih-Kumgeh': 0.1979697346687317}, 'grades': {'Ben Akih-Kumgeh': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa1a0'), 'poster_id': 42, 'judges': ['Ben Akih-Kumgeh'], 'matching_scores': {'Ben Akih-Kumgeh': 0.17859360575675964}, 'grades': {'Ben Akih-Kumgeh': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa1a1'), 'poster_id': 44, 'judges': [], 'matching_scores': {}, 'grades': {}}
+{'_id': ObjectId('67a8e56a31851b29725fa1a2'), 'poster_id': 46, 'judges': ['Yi Zheng'], 'matching_scores': {'Yi Zheng': 0.11172029376029968}, 'grades': {'Yi Zheng': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa1a3'), 'poster_id': 48, 'judges': ['Era Jain', 'Ben Akih-Kumgeh'], 'matching_scores': {'Era Jain': -0.0014881007373332977, 'Ben Akih-Kumgeh': 0.11451633274555206}, 'grades': {'Era Jain': None, 'Ben Akih-Kumgeh': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa1a4'), 'poster_id': 50, 'judges': ['Yiyang Sun'], 'matching_scores': {'Yiyang Sun': 0.13055835664272308}, 'grades': {'Yiyang Sun': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa1a5'), 'poster_id': 52, 'judges': ['Yi Zheng'], 'matching_scores': {'Yi Zheng': 0.1517297327518463}, 'grades': {'Yi Zheng': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa1a6'), 'poster_id': 54, 'judges': ['Zhen Ma'], 'matching_scores': {'Zhen Ma': 0.11179396510124207}, 'grades': {'Zhen Ma': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa1a7'), 'poster_id': 56, 'judges': [], 'matching_scores': {}, 'grades': {}}
+{'_id': ObjectId('67a8e56a31851b29725fa1a8'), 'poster_id': 58, 'judges': ['Elizabeth Carter'], 'matching_scores': {'Elizabeth Carter': 0.14990609884262085}, 'grades': {'Elizabeth Carter': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa1a9'), 'poster_id': 60, 'judges': [], 'matching_scores': {}, 'grades': {}}
+{'_id': ObjectId('67a8e56a31851b29725fa1aa'), 'poster_id': 62, 'judges': [], 'matching_scores': {}, 'grades': {}}
+{'_id': ObjectId('67a8e56a31851b29725fa1ab'), 'poster_id': 64, 'judges': ['Zhen Ma'], 'matching_scores': {'Zhen Ma': 0.03281751275062561}, 'grades': {'Zhen Ma': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa1ac'), 'poster_id': 66, 'judges': ['Min Liu'], 'matching_scores': {'Min Liu': 0.22132770717144012}, 'grades': {'Min Liu': None}}
+{'_id': ObjectId('67a8e56a31851b29725fa1ad'), 'poster_id': 68, 'judges': ['Era Jain', 'Elizabeth Carter'], 'matching_scores': {'Era Jain': -0.013681475073099136, 'Elizabeth Carter': 0.2403925061225891}, 'grades': {'Era Jain': None, 'Elizabeth Carter': None}}

@@ -1,50 +1,122 @@
-# Research Day Judge Assignment
+# --------------------------------------
+# Step 1: Set Up MongoDB using Docker
+# --------------------------------------
 
-## Explanation
-We start with two lists: **primary** and **backup**. The primary list contains the main pool of judges, while the backup list serves as a reserve. The assignment process follows a recursive logic where, if the primary list is empty, we swap it with the backup list and continue. At the end, an AI-based match swapping optimization is performed to improve assignments.
+# Ensure you have Docker installed. You can get Docker from: https://www.docker.com/get-started
 
-## Loading and Grouping
-The judges and posters are loaded from Excel. Judges are grouped by their availability (first or second hour) and stored in dictionaries keyed by JudgeID. Each judge is associated with a list (initially empty) that will store the line numbers of the assigned posters.
+# Run the following command to start a MongoDB container:
+docker run -d \
+  --name mongodb \
+  -p 27017:27017 \
+  -v mongodb_data:/data/db \
+  mongo:8.0
 
-## Assignment Logic
-For each poster, we first try to pick two judges from the primary dictionary whose match score (using F()) is at least 0.5.
+# This will start MongoDB, bind it to port 27017, and persist the database in a volume called `mongodb_data`.
 
-- If there are at least two such judges:
-  - We choose the top two based on the match score.
-- Otherwise:
-  - We then evaluate the backup list (and, if needed, relax the threshold to include all available candidates).
+# --------------------------------------
+# Step 2: Install Python Dependencies
+# --------------------------------------
 
-### Flipping Primary and Backup
-If the primary list has fewer than 2 judges available, we swap primary and backup and repeat the process. Once judges are assigned, we update their list of assigned poster indices and remove them if they reach 6 assignments. Also, judges selected from primary are moved into the backup list.
+# Ensure that Python 3 and pip3 are installed. Then, install the required packages:
+pip3 install -r requirements.txt
 
-## Swapping Phase
-A second round iterates over pairs of posters. For each pair, it checks if swapping one judge from each poster would yield a better combined match score. If so, the swap is made. This phase is iterative (up to a fixed number of iterations) and helps fine-tune the initial assignments.
+# Create a `requirements.txt` file with the following content:
+# pandas
+# numpy
+# requests
+# beautifulsoup4
+# sentence-transformers
+# torch
+# concurrent.futures
+# pymongo
+# openpyxl
 
-## Logic
-1. If primary has fewer than 2 judges, then:
-   - If primary is empty, let backup become primary and reset backup.
-   - If primary has exactly one judge, merge it into backup and then let backup become primary.
-2. Evaluate candidates in primary using F() (consider only those with score >= 0.5)
-   - Skip any candidate whose full name equals the poster's advisor.
-3. If fewer than 2 primary candidates meet the threshold, then evaluate candidates from backup.
-   - If still fewer than 2, relax the threshold by considering all candidates.
-4. Record the assignment and update the judge's list with the poster row index.
-5. Once a judge is assigned, if from primary, move the judge into backup.
-6. Remove any judge (from either dictionary) if they reach 6 assignments.
+# This will install necessary libraries such as pandas, numpy, requests, beautifulsoup4, and more.
 
-## Loading and Grouping
-Judges and posters are loaded from Excel. Judges are grouped into two dictionaries (primary and backup) by availability for first and second hour using their JudgeID as keys. Each judge’s value is a list that will store poster indices (i.e., the row numbers in the poster file) up to 6 assignments.
+# --------------------------------------
+# Step 3: Running the Application
+# --------------------------------------
 
-## Assignment Logic
-For each poster:
+# Once MongoDB is up and running, and the required Python packages are installed, you can run the application using:
+python3 main.py
 
-1. Check if the primary candidate pool has fewer than 2 judges.
-   - If primary is empty, let backup become primary and reset backup.
-   - If primary has one judge, add that judge into backup (effectively combining the pools), then set that combined pool as primary and clear backup.
-2. Evaluate candidates from primary using the matching function F() (only considering those with a score ≥ 0.5).
-3. If there are at least two primary candidates meeting the threshold, select the top two. Otherwise, evaluate candidates from backup (or relax the threshold if needed) to ensure two judges are chosen.
-4. After assignment, update each judge’s list. Judges are removed once they reach 6 assignments.
-5. Judges assigned from primary are moved to backup.
+# --------------------------------------
+# Step 4: Branches Overview
+# --------------------------------------
 
-## Swapping Phase
-In a second round, the algorithm iterates over pairs of posters and, for each pair of assigned judges, checks if swapping would improve the combined matching score. If so, the swap is performed.
+# The project is organized into three branches:
+# 1. **Main Branch (`main`)**: 
+#    - Contains the logic for **Part 1** and **Part 3** of the project:
+#      - **Part 1**: Judge assignment based on AI matching, web scraping, and assignment logic.
+#      - **Part 3**: Final grading and ranking of posters based on matching scores and grades from judges.
+# 2. **UI Branch (`UI`)**: 
+#    - Dedicated to building the user interface for interacting with the application.
+# 3. **Part 2 Branch (`part 2`)**: 
+#    - Focuses on **Part 2**, which includes the **optimization phase** of matching judges to posters based on matching scores.
+
+# --------------------------------------
+# Part 1: Loading and Grouping
+# --------------------------------------
+
+# Judges and posters are loaded from Excel files. Judges are grouped by their availability (first or second hour) into two dictionaries (`primary` and `backup`).
+# Each judge is associated with a list (initially empty) that stores the line numbers of the assigned posters.
+# When a judge reaches 6 assignments, they are removed from the pool.
+
+# --------------------------------------
+# Part 2: Assignment Logic
+# --------------------------------------
+
+# For each poster, we evaluate the candidate judges:
+# - First, from the **primary list**, if there are at least two candidates with a match score >= 0.5.
+# - If fewer than two are available, we then check the **backup list**, and if necessary, relax the threshold to include all candidates.
+# Once judges are assigned, the assignment is recorded, and their list of assigned poster indices is updated.
+
+# If the **primary list** has fewer than 2 judges available, we swap it with the **backup list** and repeat the process.
+# Once judges from the **primary list** are assigned, they are moved to the **backup list**.
+
+# --------------------------------------
+# Part 3: Swapping Phase
+# --------------------------------------
+
+# In a second round, we iterate over pairs of posters and evaluate whether swapping one judge from each poster improves the combined match score.
+# If a swap results in a better match, we perform the swap. This process is iterative and helps fine-tune the initial assignments.
+
+# --------------------------------------
+# Part 3: Swapping Phase
+# --------------------------------------
+
+# In a second round, we iterate over pairs of posters and evaluate whether swapping one judge from each poster improves the combined match score.
+# If a swap results in a better match, we perform the swap. This process is iterative and helps fine-tune the initial assignments.
+
+# --------------------------------------
+# Part 4: Data Storage and Access
+# --------------------------------------
+
+# All assignments, posters, judges, and relevant data are stored in a MongoDB database for easy access and management.
+# This allows for real-time access to judge assignments, poster details, and professor interactions.
+# Using a MongoDB database helps keep track of assignments and makes the process more scalable.
+
+# --------------------------------------
+# Part 5: Professor Login and Poster Access
+# --------------------------------------
+
+# In addition to the judge assignment and grading system, the application includes a login page for professors. 
+# Professors can log in to access only their assigned posters. This ensures that professors have secure access to their relevant data.
+# The login page will verify their credentials, and upon successful authentication, it will display the posters assigned to them.
+
+# The login system ensures that only professors can view and grade the posters assigned to them, maintaining confidentiality and access control.
+
+# --------------------------------------
+# Part 6: Branches Overview
+# --------------------------------------
+
+# The project is organized into three branches:
+# 1. **Main Branch (`main`)**: 
+#    - Contains the logic for **Part 1** and **Part 3** of the project:
+#      - **Part 1**: Judge assignment based on AI matching, web scraping, and assignment logic.
+#      - **Part 3**: Final grading and ranking of posters based on matching scores and grades from judges.
+# 2. **UI Branch (`UI`)**: 
+#    - Dedicated to building the user interface for interacting with the application.
+# 3. **Part 2 Branch (`part 2`)**: 
+#    - Focuses on **Part 2**, which includes the **optimization phase** of matching judges to posters based on matching scores.
+
