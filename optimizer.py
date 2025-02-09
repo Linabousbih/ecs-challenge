@@ -9,33 +9,30 @@ def compute_total_score(assignments):
     return sum(random.random() for _ in assignments)  # Replace with actual scoring function
 
 def simulated_annealing_swap(assignments, iterations=1000, initial_temp=1.0, cooling_rate=0.995):
-    """Optimize assignments using simulated annealing."""
-    current_solution = copy.deepcopy(assignments)  # ✅ Use deep copy to avoid modifying original lists
-    best_solution = copy.deepcopy(assignments)
+    """Optimize assignments using simulated annealing while ensuring no judge exceeds 6 assignments."""
+    judge_poster_count = {judge: sum(judge in judges for judges in assignments.values()) for judge in set(sum(assignments.values(), []))}
+    current_solution = assignments.copy()
+    best_solution = assignments.copy()
     current_score = best_score = compute_total_score(assignments)
     T = initial_temp
     poster_ids = list(assignments.keys())
 
     for _ in range(iterations):
-        # Select two distinct posters
         p1, p2 = random.sample(poster_ids, 2)
-
-        # ✅ Ensure both posters have at least 2 judges before swapping
-        if len(current_solution[p1]) < 2 or len(current_solution[p2]) < 2:
-            continue  # Skip iteration if either poster has fewer than 2 judges
-
-        # Select random judge index (0 or 1) in each poster
         idx1, idx2 = random.choice([0, 1]), random.choice([0, 1])
 
-        # ✅ Perform a deep copy before swapping
-        new_solution = copy.deepcopy(current_solution)
-        new_solution[p1][idx1], new_solution[p2][idx2] = new_solution[p2][idx2], new_solution[p1][idx1]
+        new_solution = current_solution.copy()
+        judge1, judge2 = new_solution[p1][idx1], new_solution[p2][idx2]
 
-        # Compute new score
+        # Ensure the swap doesn't violate the 6-poster limit
+        if judge_poster_count[judge1] >= 6 or judge_poster_count[judge2] >= 6:
+            continue  # Skip this swap
+
+        # Perform the swap
+        new_solution[p1][idx1], new_solution[p2][idx2] = judge2, judge1
         new_score = compute_total_score(new_solution)
         delta = new_score - current_score
 
-        # Accept better solutions or probabilistically accept worse solutions
         if delta > 0 or math.exp(delta / T) > random.random():
             current_solution = new_solution
             current_score = new_score
@@ -43,8 +40,6 @@ def simulated_annealing_swap(assignments, iterations=1000, initial_temp=1.0, coo
                 best_solution = new_solution
                 best_score = new_score
 
-        # Cool down temperature
         T *= cooling_rate
 
     return best_solution
-
