@@ -1,99 +1,120 @@
-# --------------------------------------
-# Step 1: Set Up MongoDB using Docker
-# --------------------------------------
+# Judge-Poster Assignment and Grading System
 
-# Ensure you have Docker installed. You can get Docker from: https://www.docker.com/get-started
+This project automates the process of assigning judges to posters, optimizing the assignments based on matching scores, and facilitating the grading process.  It leverages AI-driven matching, web scraping, and a user-friendly interface.
 
-# Run the following command to start a MongoDB container:
-docker run -d \
-  --name mongodb \
-  -p 27017:27017 \
-  -v mongodb_data:/data/db \
-  mongo:8.0
+## Table of Contents
 
-# This will start MongoDB, bind it to port 27017, and persist the database in a volume called `mongodb_data`.
+* [1. Getting Started](#getting-started)
+    * [1.1. Prerequisites](#prerequisites)
+    * [1.2. Setting up MongoDB with Docker](#setting-up-mongodb-with-docker)
+    * [1.3. Installing Python Dependencies](#installing-python-dependencies)
+* [2. Running the Application](#running-the-application)
+* [3. Project Structure and Branches](#project-structure-and-branches)
+* [4. Core Functionality](#core-functionality)
+    * [4.1. Part 1: Loading and Grouping Data](#part-1-loading-and-grouping-data)
+    * [4.2. Part 2: Initial Assignment Logic](#part-2-initial-assignment-logic)
+    * [4.3. Part 3: Optimization Phase (Swapping)](#part-3-optimization-phase-swapping)
+    * [4.4. Part 4: Data Storage (MongoDB)](#part-4-data-storage-mongodb)
+    * [4.5. Part 5: Professor Login and Poster Access](#part-5-professor-login-and-poster-access)
 
-# --------------------------------------
-# Step 2: Install Python Dependencies
-# --------------------------------------
 
-# Ensure that Python 3 and pip3 are installed. Then, install the required packages:
-pip3 install -r requirements.txt
+## 1. Getting Started <a name="getting-started"></a>
 
-# Create a `requirements.txt` file with the following content:
-# pandas
-# numpy
-# requests
-# beautifulsoup4
-# sentence-transformers
-# torch
-# pymongo
-# openpyxl
+### 1.1. Prerequisites <a name="prerequisites"></a>
 
-# This will install necessary libraries such as pandas, numpy, requests, beautifulsoup4, and more.
+Before you begin, ensure you have the following installed:
 
-# --------------------------------------
-# Step 3: Running the Application
-# --------------------------------------
+* **Docker:**  [https://www.docker.com/get-started](https://www.docker.com/get-started)
+* **Python 3:**  (Check your system's Python version with `python3 --version`)
+* **pip3:** (Usually included with Python 3)
 
-# Once MongoDB is up and running, and the required Python packages are installed, you can run the application using:
+### 1.2. Setting up MongoDB with Docker <a name="setting-up-mongodb-with-docker"></a>
+
+1.  Run the following command to start a MongoDB container:
+
+    ```bash
+    docker run -d \
+      --name mongodb \
+      -p 27017:27017 \
+      -v mongodb_data:/data/db \
+      mongo:8.0
+    ```
+
+    This command does the following:
+    *   `-d`: Runs the container in detached mode (background).
+    *   `--name mongodb`: Gives the container the name "mongodb".
+    *   `-p 27017:27017`: Maps port 27017 on the host to port 27017 in the container.
+    *   `-v mongodb_data:/data/db`: Creates a volume named `mongodb_data` and mounts it to `/data/db` inside the container, ensuring data persistence.
+    *   `mongo:8.0`: Specifies the MongoDB image version 8.0.
+
+### 1.3. Installing Python Dependencies <a name="installing-python-dependencies"></a>
+
+1.  Create a file named `requirements.txt` in the project directory with the following content:
+
+    ```
+    pandas
+    numpy
+    requests
+    beautifulsoup4
+    sentence-transformers
+    torch
+    pymongo
+    openpyxl
+    ```
+
+2.  Install the required packages using pip:
+
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+
+## 2. Running the Application <a name="running-the-application"></a>
+
+Once MongoDB is running and the Python dependencies are installed, you can run the application:
+
+```bash
 python3 main.py
+## 3. Project Structure and Branches <a name="project-structure-and-branches"></a>
 
-# --------------------------------------
-# Step 4: Branches Overview
-# --------------------------------------
+This project uses a branching strategy for development:
 
-# The project is organized into three branches:
-# 1. **Main Branch (`main`)**: 
-#    - Contains the logic for **Part 1** and **Part 3** of the project:
-#      - **Part 1**: Judge assignment based on AI matching, web scraping, and assignment logic.
-#      - **Part 3**: Final grading and ranking of posters based on matching scores and grades from judges.
-# 2. **UI Branch (`UI`)**: 
-#    - Dedicated to building the user interface for interacting with the application.
-# 3. **Part 2 Branch (`part 2`)**: 
-#    - Focuses on **Part 2**, which includes the **optimization phase** of matching judges to posters based on matching scores.
+*   **`main` branch:** Contains the core logic for:
+    *   Part 1: Judge assignment.
+    *   Part 3: Final grading and ranking.
+*   **`UI` branch:** Dedicated to user interface development.
+*   **`part 2` branch:** Focuses on the optimization phase (Part 2) of matching judges to posters.
 
-# --------------------------------------
-# Part 1: Loading and Grouping
-# --------------------------------------
+## 4. Core Functionality <a name="core-functionality"></a>
 
-# Judges and posters are loaded from Excel files. Judges are grouped by their availability (first or second hour) into two dictionaries (`primary` and `backup`).
-# Each judge is associated with a list (initially empty) that stores the line numbers of the assigned posters.
-# When a judge reaches 6 assignments, they are removed from the pool.
+### 4.1. Part 1: Loading and Grouping Data <a name="part-1-loading-and-grouping-data"></a>
 
-# --------------------------------------
-# Part 2: Assignment Logic
-# --------------------------------------
+*   Judges and posters are loaded from Excel files.
+*   Judges are grouped by availability (first or second hour) into `primary` and `backup` dictionaries.
+*   Each judge has an initially empty list to store assigned poster indices.
+*   Judges are removed from the assignment pool after reaching 6 assignments.
 
-# For each poster, we evaluate the candidate judges:
-# - First, from the **primary list**, if there are at least two candidates with a match score >= 0.5.
-# - If fewer than two are available, we then check the **backup list**, and if necessary, relax the threshold to include all candidates.
-# Once judges are assigned, the assignment is recorded, and their list of assigned poster indices is updated.
+### 4.2. Part 2: Initial Assignment Logic <a name="part-2-initial-assignment-logic"></a>
 
-# If the **primary list** has fewer than 2 judges available, we swap it with the **backup list** and repeat the process.
-# Once judges from the **primary list** are assigned, they are moved to the **backup list**.
+For each poster:
 
-# --------------------------------------
-# Part 3: Swapping Phase
-# --------------------------------------
+*   Check the `primary` judge list for at least two candidates with a match score >= 0.5.
+*   If fewer than two are available, check the `backup` list, potentially relaxing the threshold.
+*   Assign available judges and update their assigned poster indices.
+*   If the `primary` list has fewer than 2 judges available, swap it with the `backup` list and repeat.
+*   After assigning judges from the `primary` list, move them to the `backup` list.
 
-# In a second round, we iterate over pairs of posters and evaluate whether swapping one judge from each poster improves the combined match score.
-# If a swap results in a better match, we perform the swap. This process is iterative and helps fine-tune the initial assignments.
+### 4.3. Part 3: Optimization Phase (Swapping) <a name="part-3-optimization-phase-swapping"></a>
 
-# --------------------------------------
-# Part 4: Data Storage and Access
-# --------------------------------------
+*   Iterate through pairs of posters and evaluate if swapping a judge between them improves the combined match score.
+*   Perform swaps that result in better matches. This process refines the initial assignments.
 
-# All assignments, posters, judges, and relevant data are stored in a MongoDB database for easy access and management.
-# This allows for real-time access to judge assignments, poster details, and professor interactions.
-# Using a MongoDB database helps keep track of assignments and makes the process more scalable.
+### 4.4. Part 4: Data Storage (MongoDB) <a name="part-4-data-storage-mongodb"></a>
 
-# --------------------------------------
-# Part 5: Professor Login and Poster Access
-# --------------------------------------
+*   Assignments, posters, judges, and related data are stored in a MongoDB database.
+*   This facilitates data access, management, and scalability.
 
-# In addition to the judge assignment and grading system, the application includes a login page for professors. 
-# Professors can log in to access only their assigned posters. This ensures that professors have secure access to their relevant data.
-# The login page will verify their credentials, and upon successful authentication, it will display the posters assigned to them.
+### 4.5. Part 5: Professor Login and Poster Access <a name="part-5-professor-login-and-poster-access"></a>
 
-# The login system ensures that only professors can view and grade the posters assigned to them, maintaining confidentiality and access control.
+*   The application includes a professor login page.
+*   Professors can access only their assigned posters after successful authentication.
+*   This ensures data confidentiality and access control.
