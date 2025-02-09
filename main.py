@@ -55,7 +55,9 @@ else:
 
 
 # Populate MongoDB
-populate_db(final_assignments, judge_full_names)
+# After computing final_assignments and precomputing professor_embeddings, professor_names, etc.
+populate_db(final_assignments, judge_full_names, posters_df, professor_embeddings, professor_names)
+
 
 # -------------------------------
 # ✅ Save Final Assignments to Excel
