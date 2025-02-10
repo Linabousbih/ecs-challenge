@@ -1,20 +1,44 @@
 {
-  "name": "@esbuild/win32-x64",
-  "version": "0.21.5",
-  "description": "The Windows 64-bit binary for esbuild, a JavaScript bundler.",
+  "name": "@eslint/core",
+  "version": "0.6.0",
+  "description": "Runtime-agnostic core of ESLint",
+  "type": "module",
+  "types": "./dist/esm/types.d.ts",
+  "exports": {
+    "types": {
+      "import": "./dist/esm/types.d.ts",
+      "require": "./dist/cjs/types.d.cts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build:cts": "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\"",
+    "build": "tsc && npm run build:cts",
+    "test:jsr": "npx jsr@latest publish --dry-run"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evanw/esbuild.git"
+    "url": "git+https://github.com/eslint/rewrite.git"
   },
-  "license": "MIT",
-  "preferUnplugged": true,
-  "engines": {
-    "node": ">=12"
-  },
-  "os": [
-    "win32"
+  "keywords": [
+    "eslint",
+    "core"
   ],
-  "cpu": [
-    "x64"
-  ]
+  "author": "Nicholas C. Zakas",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eslint/rewrite/issues"
+  },
+  "homepage": "https://github.com/eslint/rewrite#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+  }
 }
